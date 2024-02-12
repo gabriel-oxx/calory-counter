@@ -2,7 +2,7 @@
 Este é um simples aplicativo web para contabilizar calorias. Ele permite que o usuário defina um orçamento diário de calorias e adicione entradas para refeições e exercícios, calculando o total de calorias consumidas.
 ## Funcionalidades
 - Definir um orçamento diário de calorias
-- Adicionar entradas para refeições e snacks
+- Adicionar entradas para refeições e exercícios
 - Calcular o total de calorias consumidas
 - Comparar o total com o orçamento definido
 - Limpar todas as entradas
