@@ -85,7 +85,7 @@ function calculateCalories(e) {
 	const consumedCalories =
 		breakfastCalories + lunchCalories + dinnerCalories + snacksCalories;
 	const remainingCalories =
-		budgetCalories - consumedCalories + exerciseCalories;
+		consumedCalories - exerciseCalories;
 	const surplusOrDeficit = remainingCalories < 0 ? "Deficit" : "Surplus";
 	output.innerHTML = `<span class="${surplusOrDeficit.toLowerCase()}">${Math.abs(
 		remainingCalories
@@ -99,7 +99,7 @@ function calculateCalories(e) {
 }
 
 function clearForm() {
-	const inputContainers = Array.from(
+		const inputContainers = Array.from(
 		document.querySelectorAll(".input-container")
 	);
 
